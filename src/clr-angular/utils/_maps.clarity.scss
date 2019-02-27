@@ -30,12 +30,12 @@ $clr-button-appearance-map: (
 $clr-h1: (
   clr-common:
     (
-      color: $clr-h1-color,
-      font-weight: $clr-typography-lightfont,
+      color: hsl(0, 0%, 22%),
+      font-weight: 500,
       font-family: $clr-altFont,
-      font-size: 1.333333rem,
+      font-size: 2rem,
       letter-spacing: normal,
-      line-height: 2rem,
+      line-height: 2.666667rem,
       margin-top: 1rem,
       margin-bottom: 0
     ),
