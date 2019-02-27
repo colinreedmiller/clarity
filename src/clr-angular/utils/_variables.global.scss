@@ -41,12 +41,12 @@ $clr-outline-offset: -5px;
 // App bg color
 $clr-global-app-background: $clr-color-neutral-50 !default;
 // App selection color
-$clr-global-selection-color: #d9e4ea !default;
+$clr-global-selection-color: hsl(201, 100%, 93%) !default;
 $clr-selection-color: $clr-global-selection-color !default; // $clr-selection-color is deprecated and will be removed.
 $clr-global-on-selection-color: $clr-color-neutral-1000 !default;
 
 // App hover color
-$clr-global-hover-color: $clr-color-neutral-200 !default;
+$clr-global-hover-color: hsl(201, 25%, 91%) !default;
 $clr-global-content-header-font-color: $clr-color-neutral-1000 !default;
 $clr-global-font-color: $clr-color-neutral-700 !default;
 
@@ -81,12 +81,12 @@ $grid-gutter-widths: (
 
 // Close button colors
 // Usage: ../emphasis/alert/_alert.clarity.scss
-$close-color--normal: $clr-color-neutral-600 !default; //deprecated
+$close-color--normal: hsl(0, 0%, 22%) !default; //deprecated
 $clr-close-color--normal: $close-color--normal !default;
-$clr-close-color--normal-opacity: 0.2 !default;
-$close-color--hover: $clr-color-neutral-1000 !default; //deprecated
+$clr-close-color--normal-opacity: 1 !default;
+$close-color--hover: hsl(0, 0%, 0%) !default; //deprecated
 $clr-close-color--hover: $close-color--hover !default;
-$clr-close-color--hover-opacity: 0.5 !default;
+$clr-close-color--hover-opacity: 1 !default;
 
 // Box Shadow
 $clr-popover-box-shadow-color: rgba($clr-color-neutral-600, 0.25) !default;

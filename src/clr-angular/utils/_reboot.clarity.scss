@@ -408,7 +408,8 @@
 
   a:link {
     color: $clr-link-color;
-    text-decoration: none;
+    // TODO: make underline themeable for links
+    text-decoration: underline;
   }
 
   a:hover {
@@ -422,7 +423,7 @@
   }
 
   a:visited {
-    color: $clr-link-visited-color; //TODO: Not in the color palette. Will be added soon.
-    text-decoration: none;
+    color: $clr-link-visited-color;
+    text-decoration: underline;
   }
 }

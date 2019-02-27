@@ -8,8 +8,8 @@
 $clr-alert-action-color: $clr-color-neutral-700 !default;
 $clr-alert-action-active-color: $clr-color-secondary-action-900 !default;
 
-$clr-alert-close-icon-color: $clr-alert-action-color !default;
-$clr-alert-close-icon-hover-color: $clr-alert-action-active-color !default;
+$clr-alert-close-icon-color: $close-color--normal !default;
+$clr-alert-close-icon-hover-color: $close-color--hover !default;
 $clr-alert-close-icon-opacity: 1 !default;
 $clr-alert-close-icon-hover-opacity: 1 !default;
 
