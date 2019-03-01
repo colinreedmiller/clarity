@@ -5,14 +5,14 @@
 // Mixin for basic table styles to be able to reuse them on non-table elements.
 @mixin basic-table($table, $thead, $tbody, $tr, $th, $td) {
   #{$table} {
-    border-collapse: separate;
-    border: $clr-table-borderstyle;
-    border-radius: $clr-table-border-radius;
+    border-collapse: collapse;
+    // border: $clr-table-borderstyle;
+    // border-radius: $clr-table-border-radius;
 
     background-color: $clr-table-bgcolor;
     color: $clr-table-font-color;
     margin: 0;
-    margin-top: 1rem;
+    // margin-top: 1rem;
     max-width: 100%;
     width: 100%;
 
@@ -36,8 +36,11 @@
 
     #{$th} {
       @include clr-getTypePropertiesForDomElement(table_header, (color, font-size, font-weight, letter-spacing));
+      // adjust header type weight
+      font-weight: 600;
+      color: black;
 
-      background-color: $clr-thead-bgcolor;
+      background-color: hsl(201, 100%, 98%);
       vertical-align: bottom;
       border-bottom: $clr-table-borderstyle;
       border-top: 0 none;

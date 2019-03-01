@@ -21,7 +21,10 @@
     '.datagrid-column',
     '.datagrid-cell'
   );
-
+  .datagrid-row.datagrid-selected .datagrid-cell {
+    border-top: 1px solid red;
+    border-bottom: 1px solid red;
+  }
   .datagrid-host {
     display: flex;
     flex-flow: column nowrap;
@@ -35,7 +38,12 @@
     -ms-overflow-style: -ms-autohiding-scrollbar;
     overflow: auto;
     flex: 1 1 auto;
+    //  margin-top: 0.5rem;
+    // box-shadow: 0 2px 1px 0 hsla(201,29%,72%,30%), 0 0 4px hsla(201,48%,81%,50%);
+  }
+  clr-datagrid {
     margin-top: 0.5rem;
+    box-shadow: 0 2px 1px 0 hsla(201, 29%, 72%, 30%), 0 0 4px hsla(201, 48%, 81%, 50%);
   }
 
   .datagrid-container {
@@ -632,9 +640,10 @@
     // Account for borders
     line-height: calc(1.5rem - #{3 * $clr-default-borderwidth});
     font-size: clr-getTypePropertyValueForDomElement(table_header, font-size);
-    background-color: $clr-thead-bgcolor;
+    background-color: hsl(201, 100%, 98%);
     border: $clr-default-borderwidth solid $clr-table-footer-border-top-color;
-    border-radius: 0 0 $clr-global-borderradius $clr-global-borderradius;
+    border-top: 0 none;
+    border-radius: 0;
 
     .pagination {
       display: flex;

@@ -28,14 +28,14 @@ $clr-btn-border-width: $clr-default-borderwidth !default;
 // Usage: ../utils/_maps.clarity.scss
 $clr-btn-default-color: $clr-color-action-600 !default;
 $clr-btn-default-border-color: $clr-btn-default-color !default;
-$clr-btn-default-bg-color: transparent !default;
-$clr-btn-default-hover-bg-color: $clr-color-action-50 !default;
+$clr-btn-default-bg-color: linear-gradient(to bottom, hsl(0, 100%, 50%) 0%, hsl(195, 96%, 45%) 100%);
+$clr-btn-default-hover-bg-color: linear-gradient(to bottom, hsl(0, 100%, 50%) 0%, hsl(195, 96%, 45%) 100%);
 $clr-btn-default-hover-color: $clr-color-action-800 !default;
 $clr-btn-default-box-shadow-color: $clr-color-action-500 !default;
 $clr-btn-default-disabled-color: $clr-color-neutral-700 !default;
-$clr-btn-default-disabled-bg-color: $clr-btn-default-bg-color !default;
+$clr-btn-default-disabled-bg-color: linear-gradient(to bottom, hsl(0, 100%, 50%) 0%, hsl(195, 96%, 45%) 100%);
 $clr-btn-default-disabled-border-color: $clr-color-neutral-600 !default;
-$clr-btn-default-checked-bg-color: $clr-color-action-600 !default;
+$clr-btn-default-checked-bg-color: linear-gradient(to bottom, hsl(0, 100%, 50%) 0%, hsl(195, 96%, 45%) 100%);
 $clr-btn-default-checked-color: $clr-color-neutral-0 !default;
 
 @function lookupFromDefaultButtonColors($property: null) {
@@ -86,18 +86,18 @@ $clr-btn-default-checked-color: $clr-color-neutral-0 !default;
   @return null;
 }
 
-// Default outline button
+// Default outline button - these are outline unfilled
 $clr-btn-default-outline-color: $clr-color-action-600 !default;
 $clr-btn-default-outline-border-color: $clr-btn-default-outline-color !default;
-$clr-btn-default-outline-bg-color: transparent !default;
-$clr-btn-default-outline-hover-bg-color: $clr-color-action-50 !default;
+$clr-btn-default-outline-bg-color: linear-gradient(to bottom, hsl(0, 100%, 50%) 0%, hsl(195, 96%, 45%) 100%);
+$clr-btn-default-outline-hover-bg-color: linear-gradient(to bottom, hsl(0, 100%, 50%) 0%, hsl(195, 96%, 45%) 100%);
 $clr-btn-default-outline-hover-color: $clr-color-action-800 !default;
 $clr-btn-default-outline-box-shadow-color: $clr-color-action-500 !default;
 $clr-btn-default-outline-disabled-color: $clr-color-neutral-700 !default;
-$clr-btn-default-outline-disabled-bg-color: $clr-btn-default-outline-bg-color !default;
+$clr-btn-default-outline-disabled-bg-color: linear-gradient(to bottom, hsl(0, 100%, 50%) 0%, hsl(195, 96%, 45%) 100%);
 $clr-btn-default-outline-disabled-border-color: $clr-color-neutral-600 !default;
 $clr-btn-default-outline-checked-color: $clr-color-neutral-0 !default;
-$clr-btn-default-outline-checked-bg-color: $clr-btn-default-outline-color !default;
+$clr-btn-default-outline-checked-bg-color: linear-gradient(to bottom, hsl(0, 100%, 50%) 0%, hsl(195, 96%, 45%) 100%);
 
 @function lookupFromDefaultOutlineButtonColors($property: null) {
   @if $property == color {
@@ -150,15 +150,15 @@ $clr-btn-default-outline-checked-bg-color: $clr-btn-default-outline-color !defau
 // Primary button colors
 // Usage: ../utils/_maps.clarity.scss
 $clr-btn-primary-color: $clr-color-neutral-0 !default;
-$clr-btn-primary-bg-color: $clr-color-action-600 !default;
+$clr-btn-primary-bg-color: linear-gradient(to bottom, hsl(0, 100%, 50%) 0%, hsl(195, 96%, 45%) 100%);
 $clr-btn-primary-border-color: $clr-color-action-600 !default;
-$clr-btn-primary-hover-bg-color: $clr-color-action-800 !default;
+$clr-btn-primary-hover-bg-color: linear-gradient(to bottom, hsl(0, 100%, 50%) 0%, hsl(195, 96%, 45%) 100%);
 $clr-btn-primary-hover-color: $clr-color-action-50 !default;
 $clr-btn-primary-box-shadow-color: $clr-color-action-500 !default;
 $clr-btn-primary-disabled-color: $clr-color-neutral-700 !default;
-$clr-btn-primary-disabled-bg-color: $clr-color-neutral-400 !default;
+$clr-btn-primary-disabled-bg-color: linear-gradient(to bottom, hsl(0, 100%, 50%) 0%, hsl(195, 96%, 45%) 100%);
 $clr-btn-primary-disabled-border-color: $clr-color-neutral-400 !default;
-$clr-btn-primary-checked-bg-color: $clr-color-action-600 !default;
+$clr-btn-primary-checked-bg-color: linear-gradient(to bottom, hsl(0, 100%, 50%) 0%, hsl(195, 96%, 45%) 100%);
 $clr-btn-primary-checked-color: $clr-color-neutral-0 !default;
 
 @function lookupFromPrimaryButtonColors($property: null) {
@@ -212,15 +212,15 @@ $clr-btn-primary-checked-color: $clr-color-neutral-0 !default;
 // Success button colors
 // Usage: ../utils/_maps.clarity.scss
 $clr-btn-success-color: $clr-color-neutral-0 !default;
-$clr-btn-success-bg-color: $clr-color-success-700 !default;
+$clr-btn-success-bg-color: linear-gradient(to bottom, hsl(0, 100%, 50%) 0%, hsl(195, 96%, 45%) 100%);
 $clr-btn-success-border-color: $clr-btn-success-bg-color !default;
-$clr-btn-success-hover-bg-color: $clr-color-success-800 !default;
+$clr-btn-success-hover-bg-color: linear-gradient(to bottom, hsl(0, 100%, 50%) 0%, hsl(195, 96%, 45%) 100%);
 $clr-btn-success-hover-color: $clr-btn-success-color !default;
 $clr-btn-success-box-shadow-color: $clr-color-success-900 !default;
 $clr-btn-success-disabled-color: $clr-color-neutral-700 !default;
-$clr-btn-success-disabled-bg-color: $clr-color-neutral-400 !default;
+$clr-btn-success-disabled-bg-color: linear-gradient(to bottom, hsl(0, 100%, 50%) 0%, hsl(195, 96%, 45%) 100%);
 $clr-btn-success-disabled-border-color: $clr-color-neutral-400 !default;
-$clr-btn-success-checked-bg-color: $clr-btn-success-hover-bg-color !default;
+$clr-btn-success-checked-bg-color: linear-gradient(to bottom, hsl(0, 100%, 50%) 0%, hsl(195, 96%, 45%) 100%);
 $clr-btn-success-checked-color: $clr-btn-success-color !default;
 
 @function lookupFromSuccessButtonColors($property: null) {
@@ -274,15 +274,15 @@ $clr-btn-success-checked-color: $clr-btn-success-color !default;
 // Success outline button colors
 // Usage: ../utils/_maps.clarity.scss
 $clr-btn-success-outline-color: $clr-color-success-700 !default;
-$clr-btn-success-outline-bg-color: transparent !default;
+$clr-btn-success-outline-bg-color: linear-gradient(to bottom, hsl(0, 100%, 50%) 0%, hsl(195, 96%, 45%) 100%);
 $clr-btn-success-outline-border-color: $clr-color-success-700 !default;
-$clr-btn-success-outline-hover-bg-color: $clr-color-success-50 !default;
+$clr-btn-success-outline-hover-bg-color: linear-gradient(to bottom, hsl(0, 100%, 50%) 0%, hsl(195, 96%, 45%) 100%);
 $clr-btn-success-outline-hover-color: $clr-color-success-900 !default;
 $clr-btn-success-outline-box-shadow-color: $clr-color-success-400 !default;
 $clr-btn-success-outline-disabled-color: $clr-color-neutral-700 !default;
-$clr-btn-success-outline-disabled-bg-color: $clr-btn-success-outline-bg-color !default;
+$clr-btn-success-outline-disabled-bg-color: linear-gradient(to bottom, hsl(0, 100%, 50%) 0%, hsl(195, 96%, 45%) 100%);
 $clr-btn-success-outline-disabled-border-color: $clr-color-neutral-600 !default;
-$clr-btn-success-outline-checked-bg-color: $clr-btn-success-outline-border-color !default;
+$clr-btn-success-outline-checked-bg-color: linear-gradient(to bottom, hsl(0, 100%, 50%) 0%, hsl(195, 96%, 45%) 100%);
 $clr-btn-success-outline-checked-color: $clr-color-neutral-0 !default;
 
 @function lookupFromSuccessOutlineButtonColors($property: null) {
@@ -336,15 +336,15 @@ $clr-btn-success-outline-checked-color: $clr-color-neutral-0 !default;
 // Danger button colors
 // Usage: ../utils/_maps.clarity.scss
 $clr-btn-danger-color: $clr-color-neutral-0 !default;
-$clr-btn-danger-bg-color: $clr-color-danger-700 !default;
+$clr-btn-danger-bg-color: linear-gradient(to bottom, hsl(0, 100%, 50%) 0%, hsl(195, 96%, 45%) 100%);
 $clr-btn-danger-border-color: $clr-btn-danger-bg-color !default;
-$clr-btn-danger-hover-bg-color: $clr-color-danger-800 !default;
+$clr-btn-danger-hover-bg-color: linear-gradient(to bottom, hsl(0, 100%, 50%) 0%, hsl(195, 96%, 45%) 100%);
 $clr-btn-danger-hover-color: $clr-btn-danger-color !default;
 $clr-btn-danger-box-shadow-color: $clr-color-danger-900 !default;
 $clr-btn-danger-disabled-color: $clr-color-neutral-700 !default;
-$clr-btn-danger-disabled-bg-color: $clr-color-neutral-400 !default;
+$clr-btn-danger-disabled-bg-color: linear-gradient(to bottom, hsl(0, 100%, 50%) 0%, hsl(195, 96%, 45%) 100%);
 $clr-btn-danger-disabled-border-color: $clr-btn-danger-disabled-color !default;
-$clr-btn-danger-checked-bg-color: $clr-color-danger-800 !default;
+$clr-btn-danger-checked-bg-color: linear-gradient(to bottom, hsl(0, 100%, 50%) 0%, hsl(195, 96%, 45%) 100%);
 $clr-btn-danger-checked-color: $clr-btn-danger-color !default;
 
 @function lookupFromDangerButtonColors($property: null) {
@@ -398,15 +398,15 @@ $clr-btn-danger-checked-color: $clr-btn-danger-color !default;
 // Danger outline button colors
 // Usage: ../utils/_maps.clarity.scss
 $clr-btn-danger-outline-color: $clr-color-danger-700 !default;
-$clr-btn-danger-outline-bg-color: transparent !default;
+$clr-btn-danger-outline-bg-color: linear-gradient(to bottom, hsl(0, 100%, 50%) 0%, hsl(195, 96%, 45%) 100%);
 $clr-btn-danger-outline-border-color: $clr-color-danger-800 !default;
-$clr-btn-danger-outline-hover-bg-color: $clr-color-danger-100 !default;
+$clr-btn-danger-outline-hover-bg-color: linear-gradient(to bottom, hsl(0, 100%, 50%) 0%, hsl(195, 96%, 45%) 100%);
 $clr-btn-danger-outline-hover-color: $clr-color-danger-900 !default;
 $clr-btn-danger-outline-box-shadow-color: $clr-color-danger-200 !default;
 $clr-btn-danger-outline-disabled-color: $clr-color-neutral-700 !default;
-$clr-btn-danger-outline-disabled-bg-color: $clr-btn-danger-outline-bg-color !default;
+$clr-btn-danger-outline-disabled-bg-color: linear-gradient(to bottom, hsl(0, 100%, 50%) 0%, hsl(195, 96%, 45%) 100%);
 $clr-btn-danger-outline-disabled-border-color: $clr-btn-danger-outline-disabled-color !default;
-$clr-btn-danger-outline-checked-bg-color: $clr-color-danger-800 !default;
+$clr-btn-danger-outline-checked-bg-color: linear-gradient(to bottom, hsl(0, 100%, 50%) 0%, hsl(195, 96%, 45%) 100%);
 $clr-btn-danger-outline-checked-color: $clr-color-neutral-0 !default;
 
 @function lookupFromDangerOutlineButtonColors($property: null) {
@@ -460,14 +460,14 @@ $clr-btn-danger-outline-checked-color: $clr-color-neutral-0 !default;
 // Link button colors
 // Usage: ../utils/_maps.clarity.scss
 $clr-btn-link-color: $clr-color-action-600 !default;
-$clr-btn-link-bg-color: transparent !default;
+$clr-btn-link-bg-color: linear-gradient(to bottom, hsl(0, 100%, 50%) 0%, hsl(195, 96%, 45%) 100%);
 $clr-btn-link-border-color: transparent !default;
-$clr-btn-link-hover-bg-color: transparent !default;
+$clr-btn-link-hover-bg-color: linear-gradient(to bottom, hsl(0, 100%, 50%) 0%, hsl(195, 96%, 45%) 100%);
 $clr-btn-link-hover-color: $clr-color-action-800 !default;
 $clr-btn-link-disabled-color: $clr-color-neutral-700 !default;
-$clr-btn-link-disabled-bg-color: transparent !default;
+$clr-btn-link-disabled-bg-color: linear-gradient(to bottom, hsl(0, 100%, 50%) 0%, hsl(195, 96%, 45%) 100%);
 $clr-btn-link-disabled-border-color: transparent !default;
-$clr-btn-link-checked-bg-color: transparent !default;
+$clr-btn-link-checked-bg-color: linear-gradient(to bottom, hsl(0, 100%, 50%) 0%, hsl(195, 96%, 45%) 100%);
 $clr-btn-link-checked-color: $clr-color-action-800 !default;
 
 @function lookupFromLinkButtonColors($property: null) {
@@ -522,14 +522,14 @@ $clr-btn-link-checked-color: $clr-color-action-800 !default;
 // Usage: ../utils/_maps.clarity.scss
 $clr-btn-inverse-color: $clr-color-neutral-0 !default;
 $clr-btn-inverse-border-color: $clr-color-neutral-0 !default;
-$clr-btn-inverse-bg-color: transparent !default;
-$clr-btn-inverse-hover-bg-color: rgba($clr-color-neutral-0, 0.15) !default;
+$clr-btn-inverse-bg-color: linear-gradient(to bottom, hsl(0, 100%, 50%) 0%, hsl(195, 96%, 45%) 100%);
+$clr-btn-inverse-hover-bg-color: linear-gradient(to bottom, hsl(0, 100%, 50%) 0%, hsl(195, 96%, 45%) 100%);
 $clr-btn-inverse-hover-color: $clr-color-neutral-0 !default;
 $clr-btn-inverse-box-shadow-color: rgba($clr-color-neutral-1000, 0.25) !default;
 $clr-btn-inverse-disabled-color: $clr-color-neutral-0 !default;
-$clr-btn-inverse-disabled-bg-color: $clr-btn-inverse-bg-color !default;
+$clr-btn-inverse-disabled-bg-color: linear-gradient(to bottom, hsl(0, 100%, 50%) 0%, hsl(195, 96%, 45%) 100%);
 $clr-btn-inverse-disabled-border-color: $clr-color-neutral-0 !default;
-$clr-btn-inverse-checked-bg-color: rgba($clr-color-neutral-0, 0.15) !default;
+$clr-btn-inverse-checked-bg-color: linear-gradient(to bottom, hsl(0, 100%, 50%) 0%, hsl(195, 96%, 45%) 100%);
 $clr-btn-inverse-checked-color: $clr-color-neutral-0 !default;
 
 @function lookupFromInverseButtonColors($property: null) {

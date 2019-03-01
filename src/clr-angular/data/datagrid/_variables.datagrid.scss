@@ -9,7 +9,7 @@ $clr-datagrid-fixed-column-size: (2 * $clr-table-cellpadding) + $clr-table-lineh
 $clr-datagrid-font-color: #adbbc4 !default;
 $clr-datagrid-default-border-color: $clr-color-neutral-400 !default;
 
-$clr-datagrid-row-hover: $clr-color-neutral-200 !default;
+$clr-datagrid-row-hover: hsl(201, 100%, 96%) !default;
 $clr-datagrid-action-toggle: $clr-color-neutral-700 !default;
 $clr-datagrid-pagination-btn-color: $clr-color-neutral-700 !default;
 $clr-datagrid-pagination-btn-disabled-color: $clr-color-neutral-600 !default;

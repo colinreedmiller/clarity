@@ -409,7 +409,7 @@
   a:link {
     color: $clr-link-color;
     // TODO: make underline themeable for links
-    text-decoration: underline;
+    text-decoration: none;
   }
 
   a:hover {
@@ -424,6 +424,6 @@
 
   a:visited {
     color: $clr-link-visited-color;
-    text-decoration: underline;
+    text-decoration: none;
   }
 }

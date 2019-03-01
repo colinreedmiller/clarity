@@ -15,7 +15,7 @@ $clr-custom-links-hover-color: $clr-color-neutral-200 !default;
 a.link-normal:link {
   color: $clr-link-color;
   // TODO: make text decoration themeable too
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 a.link-hovered:link {
@@ -30,5 +30,5 @@ a.link-clicked:link {
 
 a.link-visited:link {
   color: $clr-link-visited-color;
-  text-decoration: underline;
+  text-decoration: none;
 }

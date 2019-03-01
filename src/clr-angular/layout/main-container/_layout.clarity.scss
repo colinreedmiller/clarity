@@ -8,6 +8,7 @@
     flex-direction: column;
     height: 100vh;
     background: $clr-global-app-background;
+    background: hsl(0, 0%, 100%);
 
     .alert.alert-app-level {
       flex: 0 0 auto;

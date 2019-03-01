@@ -76,7 +76,7 @@
 
 @mixin populateButtonProperties($button-type: default) {
   border-color: getSassButtonColor($button-type, border-color);
-  background-color: getSassButtonColor($button-type, bg-color);
+  background: getSassButtonColor($button-type, bg-color);
   color: getSassButtonColor($button-type, color);
 
   //To override the visited state of anchor links styled as buttons
@@ -85,7 +85,7 @@
   }
 
   &:hover {
-    background-color: getSassButtonColor($button-type, hover-bg-color);
+    background: getSassButtonColor($button-type, hover-bg-color);
     color: getSassButtonColor($button-type, hover-color);
   }
 
@@ -107,7 +107,7 @@
     color: getSassButtonColor($button-type, disabled-color);
     cursor: not-allowed;
     opacity: 0.4;
-    background-color: getSassButtonColor($button-type, disabled-bg-color);
+    background: getSassButtonColor($button-type, disabled-bg-color);
     border-color: getSassButtonColor($button-type, disabled-border-color);
   }
 }
@@ -115,7 +115,7 @@
 @mixin btn-checked-styles($button-type: default, $type: checkbox) {
   // add semantic prop: group-checked-font-color
   input[type='#{$type}']:checked + label {
-    background-color: getSassButtonColor($button-type, checked-bg-color);
+    background: getSassButtonColor($button-type, checked-bg-color);
     color: getSassButtonColor($button-type, checked-color);
   }
 }

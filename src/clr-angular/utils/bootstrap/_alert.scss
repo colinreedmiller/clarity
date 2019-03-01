@@ -41,7 +41,7 @@
 // Generate contextual modifier classes for colorizing the alert.
 
 .alert-success {
-  @include alert-variant($alert-success-bg, $alert-success-border, $alert-success-text);
+  @include alert-variant(#F4FFEB, $alert-success-border, $alert-success-text);
 }
 .alert-info {
   @include alert-variant($alert-info-bg, $alert-info-border, $alert-info-text);

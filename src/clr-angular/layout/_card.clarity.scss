@@ -4,14 +4,14 @@
 
 @include exports('card.clarity') {
   %card-border-appearance {
-    box-shadow: $clr-card-box-shadow; //Hardcoded color not in color palette
-    border-radius: $clr-global-borderradius;
-    border: $clr-card-border;
+    box-shadow: 0 2px 1px 0 hsla(201, 10%, 85%, 5%), 0 0 6px hsla(201, 30%, 90%, 5%); //Hardcoded color not in color palette
+    border-radius: 0;
+    border: 0 none;
   }
 
   %clickable-card-transition {
-    box-shadow: 0 0.125rem 0 0 rgba(0, 148, 210, 1);
-    border: $clr-default-borderwidth solid rgba(0, 148, 210, 1);
+    box-shadow: 0 2px 1px 0 hsla(201, 29%, 72%, 00%), 0 0 4px hsla(201, 48%, 81%, 50%); //Hardcoded color not in color palette
+    border-radius: 0;
     cursor: pointer;
     text-decoration: none;
     transform: translateY(-2px);
@@ -69,7 +69,9 @@
     .list-unstyled {
       @extend %card-space-between;
     }
-
+    .card-title {
+      margin-bottom: 0rem;
+    }
     //Clarity Lists
     & > .list,
     & > .list-unstyled {
@@ -103,10 +105,14 @@
     }
   }
 
-  .card-header,
-  .card-block,
-  .card-footer {
+  .card-header {
     padding: $card-children-padding-vertical $card-children-padding-horizontal;
+  }
+  .card-block {
+    padding: $card-children-padding-vertical $card-children-padding-horizontal;
+  }
+  .card-footer {
+    padding: 0.5rem $card-children-padding-horizontal;
   }
 
   .card-header,
@@ -171,7 +177,7 @@
   //Card dividers should only be used inside of a .card-block
   .card-divider {
     display: block;
-    border-bottom: $clr-default-borderwidth solid $clr-card-divider-color;
+    border-bottom: $clr-default-borderwidth solid hsl(201, 100%, 20%);
   }
 
   .card-block {

@@ -16,11 +16,11 @@ $clr-button-appearance-map: (
     ),
   form:
     (
-      line-height: $clr-button-height,
+      line-height: 1rem,
       letter-spacing: 0.12em,
       font-size: 0.5rem,
       font-weight: 500,
-      height: $clr-button-height,
+      height: 1rem,
       padding: $clr-button-padding
     )
 );
@@ -34,7 +34,7 @@ $clr-h1: (
       font-weight: 500,
       font-family: $clr-altFont,
       font-size: 2rem,
-      letter-spacing: normal,
+      letter-spacing: -2px,
       line-height: 2.666667rem,
       margin-top: 1rem,
       margin-bottom: 0
@@ -48,11 +48,11 @@ $clr-h1: (
 $clr-h2: (
   clr-common:
     (
-      color: $clr-h2-color,
-      font-weight: $clr-typography-lightfont,
+      color: hsl(0, 0%, 22%),
+      font-weight: 300,
       font-family: $clr-altFont,
-      font-size: 1.166667rem,
-      letter-spacing: normal,
+      font-size: 1.66667rem,
+      letter-spacing: -0.7px,
       line-height: 2rem,
       margin-top: 1rem,
       margin-bottom: 0
@@ -65,12 +65,12 @@ $clr-h2: (
 $clr-h3: (
   clr-common:
     (
-      color: $clr-h3-color,
-      font-weight: $clr-typography-lightfont,
+      color: hsl(0, 0%, 22%),
+      font-weight: 300,
       font-family: $clr-altFont,
-      font-size: 0.916667rem,
-      letter-spacing: normal,
-      line-height: 1rem,
+      font-size: 1.33333rem,
+      letter-spacing: -0.7px,
+      line-height: 1.66667rem,
       margin-top: 1rem,
       margin-bottom: 0
     ),
@@ -82,12 +82,12 @@ $clr-h3: (
 $clr-h4: (
   clr-common:
     (
-      color: $clr-h4-color,
-      font-weight: $clr-typography-lightfont,
+      color: hsl(0, 0%, 22%),
+      font-weight: 600,
       font-family: $clr-altFont,
-      font-size: 0.75rem,
-      letter-spacing: normal,
-      line-height: 1rem,
+      font-size: 24px,
+      letter-spacing: -0.3px,
+      line-height: 32px,
       margin-top: 1rem,
       margin-bottom: 0
     ),
@@ -150,11 +150,11 @@ $clr-p0: (
 $clr-p1: (
   clr-common:
     (
-      color: $clr-p1-color,
-      font-weight: $clr-typography-regfont,
+      color: hsl(0, 0%, 42%),
+      font-weight: 500,
       font-size: 0.583333rem,
-      letter-spacing: $clr-kerning-lotsatext,
-      line-height: 1rem,
+      letter-spacing: -0.2px,
+      line-height: 0.83333rem,
       margin-top: 1rem,
       margin-bottom: 0
     ),
