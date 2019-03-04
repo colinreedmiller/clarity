@@ -1,5 +1,6 @@
 /*
- * Copyright (c) 2016-2018 VMware, Inc. All Rights Reserved.
+ * Copyright (c) 2016-2018 VMware,
+ Inc. All Rights Reserved.
  * This software is released under MIT license.
  * The full license information can be found in LICENSE in the root directory of this project.
  */
@@ -14,7 +15,7 @@ import { APP_ROUTES } from './app.routing';
             <main class="content-area">
                 <router-outlet></router-outlet>
             </main>
-            <nav class="sidenav" [clr-nav-level]="2">
+            <!-- nav class="sidenav" [clr-nav-level]="2">
                 <section class="sidenav-content">
                     <section class="nav-group collapsible">
                         <input id="tab1" type="checkbox">
@@ -27,10 +28,10 @@ import { APP_ROUTES } from './app.routing';
                         </ul>
                     </section>
                 </section>
-            </nav>
+            </nav -->
         
             <!--DO NOT DELETE THE COMMENTS BELOW. Needed for testing the Vertical Nav-->
-            <!--clr-vertical-nav [clrVerticalNavCollapsible]="true" [clrVerticalNavCollapsed]="false" [clr-nav-level]="2">
+            <!-- clr-vertical-nav [clrVerticalNavCollapsible]="true" [clrVerticalNavCollapsed]="false" [clr-nav-level]="2">
                 <clr-vertical-nav-group>
                     <clr-icon shape="home" clrVerticalNavIcon></clr-icon>
                     Home
@@ -42,19 +43,37 @@ import { APP_ROUTES } from './app.routing';
                         </a>
                     </ng-container>
                 </clr-vertical-nav-group>
-            </clr-vertical-nav-->
+            </clr-vertical-nav -->
     
-            <!--clr-vertical-nav [clrVerticalNavCollapsible]="true" [clrVerticalNavCollapsed]="false" [clr-nav-level]="2">
+            <clr-vertical-nav [clrVerticalNavCollapsible]="true" [clrVerticalNavCollapsed]="false" [clr-nav-level]="2">
                 <ng-container *ngFor="let route of routes">
                     <a clrVerticalNavLink *ngIf="route.path != ''"
                        [routerLink]="[route.path]"
                        [routerLinkActive]="['active']">
-                        {{route.path}}
+                        <clr-icon clrVerticalNavIcon [attr.shape]="navIcon"></clr-icon>
+                        {{route.path | titlecase }}
                     </a>
                 </ng-container>
-            </clr-vertical-nav-->
+            </clr-vertical-nav>
         `,
 })
 export class AppContentContainerComponent {
   public routes: Route[] = APP_ROUTES;
+
+  public get navIcon() {
+    const shapeArray = [
+      'info-standard',
+      'directory',
+      'settings',
+      'eye',
+      'image',
+      'event',
+      'avatar',
+      'cloud',
+      'filter-grid-circle',
+      'eye',
+    ];
+
+    return shapeArray[Math.floor(Math.random() * (shapeArray.length - 1 - 0 + 1))];
+  }
 }
