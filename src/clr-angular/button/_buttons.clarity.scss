@@ -75,9 +75,13 @@
 }
 
 @mixin populateButtonProperties($button-type: default) {
-  border-color: getSassButtonColor($button-type, border-color);
+  $border-color: getSassButtonColor($button-type, border-color);
+  border-color: $border-color;
   background: getSassButtonColor($button-type, bg-color);
   color: getSassButtonColor($button-type, color);
+  border-bottom-width: 2px;
+  line-height: 100%;
+  border-radius: 3px;
 
   //To override the visited state of anchor links styled as buttons
   &:visited {
@@ -90,15 +94,15 @@
   }
 
   &:active {
+    line-height: 0.9rem;
+
     @if $button-type == link {
       box-shadow: none;
     } @else {
-      box-shadow: 0
-        getActiveWidthBoxShadowTop($button-type)
-        0
-        0
-        getSassButtonColor($button-type, box-shadow-color)
-        inset;
+      line-height: 1rem;
+      background: $border-color;
+      color: #fff;
+      box-shadow: 0 2px 0 0 hsla(201, 14%, 0%, 0.4) inset;
     }
   }
 
