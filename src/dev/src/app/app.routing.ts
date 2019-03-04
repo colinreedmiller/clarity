@@ -18,6 +18,8 @@ export const APP_ROUTES: Routes = [
   { path: 'checkboxes', loadChildren: 'src/app/checkboxes/checkboxes.demo.module#CheckboxesDemoModule' },
   { path: 'color', loadChildren: 'src/app/color/color.demo.module#ColorDemoModule' },
   { path: 'combobox', loadChildren: 'src/app/combobox/combobox.demo.module#ComboboxDemoModule' },
+  { path: 'dashboard', loadChildren: 'src/app/dashboard/dashboards.demo.module#DashboardsDemoModule' },
+  { path: 'databoard', loadChildren: 'src/app/databoard/databoards.demo.module#DataboardsDemoModule' },
   { path: 'datagrid', loadChildren: 'src/app/datagrid/datagrid.demo.module#DatagridDemoModule' },
   { path: 'drag-and-drop', loadChildren: 'src/app/drag-and-drop/drag-and-drop.demo.module#DragAndDropDemoModule' },
   { path: 'datepicker', loadChildren: 'src/app/datepicker/datepicker.demo.module#DatepickerDemoModule' },
