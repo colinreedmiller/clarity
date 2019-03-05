@@ -5,8 +5,8 @@
 $clr-calendar-click-target: 1.5rem;
 $clr-calendar-background-color: $clr-color-neutral-0 !default;
 $clr-calendar-border-color: $clr-color-neutral-400 !default;
-$clr-datepicker-trigger-color: $clr-color-action-600 !default;
-$clr-datepicker-trigger-hover-color: $clr-color-action-800 !default;
+$clr-datepicker-trigger-color: hsl(201, 100%, 94%);
+$clr-datepicker-trigger-hover-color: hsl(201, 25%, 91%);
 $clr-calendar-margin-top: 0.25rem;
 $clr-calendar-padding: 0.5rem;
 
@@ -17,7 +17,7 @@ $clr-calendar-height: (8 * $clr-calendar-click-target) + (2 * $clr-calendar-padd
 //(8 = 6 date rows + 1 row for day heading + 1 row for calendar switches and month/year pickers)
 
 $clr-calendar-btn-color: $clr-color-action-500 !default;
-$clr-calendar-btn-hover-focus-color: $clr-global-hover-color !default;
+$clr-calendar-btn-hover-focus-color: hsl(201, 25%, 91%);
 $clr-calendar-btn-padding: 0;
 
 $clr-calendar-month-cell-height: 2rem;
@@ -29,7 +29,7 @@ $clr-calendar-picker-btn-font-weight: 200;
 $clr-calendar-today-date-cell-color: $clr-color-neutral-1000 !default;
 $clr-calendar-today-date-cell-font-weight: 600;
 
-$clr-calendar-active-cell-background-color: $clr-global-selection-color !default;
+$clr-calendar-active-cell-background-color: hsl(201, 25%, 91%);
 $clr-calendar-active-focus-cell-background-color: $clr-global-selection-color !default;
 $clr-calendar-active-cell-color: $clr-color-neutral-1000 !default;
 

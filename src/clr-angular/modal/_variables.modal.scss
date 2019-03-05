@@ -3,10 +3,10 @@
 // The full license information can be found in LICENSE in the root directory of this project.
 
 // Usage: ../modal/_modal.clarity.scss
-$clr-modal-content-padding-top: 1rem !default;
-$clr-modal-content-padding-right: 1rem !default;
-$clr-modal-content-padding-bottom: 1rem !default;
-$clr-modal-content-padding-left: 1rem !default;
+$clr-modal-content-padding-top: 0.6rem !default;
+$clr-modal-content-padding-right: 1.3rem !default;
+$clr-modal-content-padding-bottom: 0.8rem !default;
+$clr-modal-content-padding-left: 1.3rem !default;
 $clr-modal-close-color: $clr-color-neutral-600 !default;
 $clr-modal-bg-color: $clr-color-neutral-0 !default;
 $clr-modal-content-box-shadow-color: rgba(
@@ -15,8 +15,8 @@ $clr-modal-content-box-shadow-color: rgba(
   blue($clr-color-neutral-1000),
   0.2
 ) !default;
-$clr-modal-backdrop-color: $clr-color-neutral-900 !default;
-$clr-modal-border-radius: $clr-global-borderradius !default;
+$clr-modal-backdrop-color: hsl(201, 20, 25);
+$clr-modal-border-radius: 0px !default;
 
 // Usage: ../modal/_modal.clarity.scss
 // Usage: ../wizard/_wizard.clarity.scss

@@ -5,6 +5,10 @@
 // App Level font colors
 // Usage: ./_alert.clarity.scss
 // Used for 'toggle' button for dropdowns on the right side of an alert
+
+// Master font color
+$clr-alert-font-color: hsl(201, 0%, 20%);
+//
 $clr-alert-action-color: $clr-color-neutral-700 !default;
 $clr-alert-action-active-color: $clr-color-secondary-action-900 !default;
 
@@ -38,7 +42,7 @@ $clr-alert-borderradius: 2px;
 $clr-alert-info-bg-color: $clr-color-action-50 !default;
 $clr-alert-info-bg-color: hsl(201, 100%, 97%);
 
-$clr-alert-info-font-color: hsl(201, 0%, 15%);
+$clr-alert-info-font-color: $clr-alert-font-color;
 $clr-alert-info-border-color: $clr-color-action-400 !default;
 $clr-alert-info-border-color: hsl(201, 94%, 39%);
 
@@ -55,7 +59,7 @@ $clr-alert-info-close-icon-hover-opacity: $clr-alert-close-icon-hover-opacity !d
 $clr-alert-success-bg-color: $clr-color-success-50 !default;
 $clr-alert-success-bg-color: hsl(93, 100%, 96%);
 
-$clr-alert-success-font-color: hsl(201, 0%, 15%);
+$clr-alert-success-font-color: $clr-alert-font-color;
 $clr-alert-success-border-color: $clr-color-success-400 !default;
 $clr-alert-success-border-color: hsl(93, 100%, 28%);
 
@@ -72,7 +76,7 @@ $clr-alert-success-close-icon-hover-opacity: $clr-alert-close-icon-hover-opacity
 $clr-alert-warning-bg-color: $clr-color-warning-100 !default;
 $clr-alert-warning-bg-color: hsl(45, 100%, 95%);
 
-$clr-alert-warning-font-color: hsl(201, 0%, 15%);
+$clr-alert-warning-font-color: $clr-alert-font-color;
 $clr-alert-warning-border-color: $clr-color-warning-400 !default;
 $clr-alert-warning-border-color: hsl(45, 100%, 55%);
 
@@ -89,7 +93,7 @@ $clr-alert-warning-close-icon-hover-opacity: $clr-alert-close-icon-hover-opacity
 $clr-alert-danger-bg-color: $clr-color-danger-100 !default;
 $clr-alert-danger-bg-color: hsl(5, 100%, 97%);
 
-$clr-alert-danger-font-color: hsl(201, 0%, 15%);
+$clr-alert-danger-font-color: $clr-alert-font-color;
 $clr-alert-danger-border-color: $clr-color-danger-200 !default;
 $clr-alert-danger-border-color: hsl(5, 76%, 46%);
 
@@ -103,7 +107,8 @@ $clr-alert-danger-close-icon-hover-opacity: $clr-alert-close-icon-hover-opacity 
 
 // App Info type
 // Usage: ./_alert.clarity.scss
-$clr-app-alert-info-bg-color: $clr-color-action-600 !default;
+$clr-app-alert-info-bg-color: linear-gradient(to bottom, hsl(200, 97%, 44%) 0%, hsl(212, 67%, 46%) 100%);
+
 $clr-app-alert-info-font-color: $clr-app-level-alert-color !default;
 $clr-app-alert-info-border-color: none !default;
 $clr-app-alert-info-icon-color: $clr-app-alert-close-icon-color !default;
@@ -116,11 +121,12 @@ $clr-app-alert-info-close-icon-hover-opacity: $clr-app-alert-close-icon-hover-op
 
 // App Warning type
 // Usage: ./_alert.clarity.scss
-$clr-app-alert-warning-bg-color: hsl(46, 96%, 64%);
+$clr-app-alert-warning-bg-color: linear-gradient(to bottom, hsl(46, 96%, 63%) 0%, hsl(37, 91%, 59%) 100%);
+
 $clr-app-alert-warning-icon-color: hsl(201, 0%, 15%);
 $clr-app-alert-warning-border-color: none !default;
 $clr-app-alert-warning-font-color: hsl(201, 0%, 15%);
-$clr-app-alert-warning-close-icon-color: hsl(201, 0%, 15%);
+$clr-app-alert-warning-close-icon-color: hsl(201, 0%, 20%);
 $clr-app-alert-warning-action-color: $clr-app-alert-warning-font-color !default;
 $clr-app-alert-warning-action-active-color: $clr-app-alert-warning-font-color !default;
 $clr-app-alert-warning-close-icon-opacity: $clr-app-alert-close-icon-opacity !default;
@@ -129,7 +135,8 @@ $clr-app-alert-warning-close-icon-hover-opacity: $clr-app-alert-close-icon-hover
 
 // App Danger type
 // Usage: ./_alert.clarity.scss
-$clr-app-alert-danger-bg-color: $clr-red !default;
+$clr-app-alert-danger-bg-color: linear-gradient(to bottom, hsl(4, 95%, 41%) 0%, hsl(2, 98%, 36%) 100%);
+
 $clr-app-alert-danger-icon-color: $clr-app-alert-close-icon-color !default;
 $clr-app-alert-danger-font-color: $clr-app-level-alert-color !default;
 $clr-app-alert-danger-border-color: none !default;

@@ -52,7 +52,7 @@
 
 .modal-header {
   border-bottom: none;
-  padding: 0 0 1rem 0;
+  padding: 0 0 0.2rem 0;
 
   .modal-title {
     @include clr-getTypePropertiesForDomElement(
@@ -64,8 +64,8 @@
   }
 
   .close {
-    margin-top: -0.0416667rem;
-    margin-right: -0.208333rem;
+    margin-top: -0.1rem;
+    margin-right: -0.4rem;
     font-size: 1.0833rem;
     line-height: 1rem;
 

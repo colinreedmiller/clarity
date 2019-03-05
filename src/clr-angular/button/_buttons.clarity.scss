@@ -167,7 +167,7 @@
   @include btn-nowrap();
   @include btn-text-properties();
 }
-
+// This is causing some unexpected results - secondary button page, button sizes page
 @include exports('buttons.clarity') {
   .btn {
     @include generateButton();

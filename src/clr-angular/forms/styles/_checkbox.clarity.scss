@@ -32,7 +32,7 @@
         0,
         $clr-forms-border-color
       );
-      border-radius: $clr-forms-checkbox-border-radius;
+      border-radius: 0px;
     }
 
     input[type='checkbox']:focus + label::before {

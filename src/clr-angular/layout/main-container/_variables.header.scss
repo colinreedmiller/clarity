@@ -8,7 +8,7 @@
 $clr-header-height: 2rem !default;
 
 // Usage: ../layout/nav/_header.clarity.scss
-$clr-header-bgColor: linear-gradient(to bottom, hsl(0, 100%, 50%) 0%, hsl(195, 96%, 45%) 100%);
+$clr-header-bgColor: linear-gradient(to bottom, hsl(193, 100%, 18%) 0%, hsl(201, 100%, 11%) 100%);
 $clr-header-textColor: $clr-color-neutral-50 !default;
 $clr-logo-width: 1.5rem !default;
 $clr-nav-icon-size: 0.75rem !default;
@@ -20,9 +20,10 @@ $clr-header-nav-hover-opacity: 1 !default;
 $clr-header-outline-offset: -0.208333rem !default;
 $clr-header-clarity-icons-size: 1rem !default;
 $clr-header-nav-text-horizontal-padding: 1rem !default;
-$clr-header-2-bg-color: linear-gradient(to bottom, hsl(0, 100%, 50%) 0%, hsl(195, 96%, 45%) 100%);
-$clr-header-3-bg-color: linear-gradient(to bottom, hsl(0, 100%, 50%) 0%, hsl(195, 96%, 45%) 100%);
-$clr-header-4-bg-color: linear-gradient(to bottom, hsl(0, 100%, 50%) 0%, hsl(195, 96%, 45%) 100%);
-$clr-header-5-bg-color: linear-gradient(to bottom, hsl(0, 100%, 50%) 0%, hsl(195, 96%, 45%) 100%);
-$clr-header-6-bg-color: linear-gradient(to bottom, hsl(0, 100%, 50%) 0%, hsl(195, 96%, 45%) 100%);
-$clr-header-7-bg-color: linear-gradient(to bottom, hsl(0, 100%, 50%) 0%, hsl(195, 96%, 45%) 100%);
+// To do
+$clr-header-2-bg-color: linear-gradient(to bottom, hsl(193, 100%, 18%) 0%, hsl(201, 100%, 11%) 100%);
+$clr-header-3-bg-color: linear-gradient(to bottom, hsl(193, 100%, 18%) 0%, hsl(201, 100%, 11%) 100%);
+$clr-header-4-bg-color: linear-gradient(to bottom, hsl(193, 100%, 18%) 0%, hsl(201, 100%, 11%) 100%);
+$clr-header-5-bg-color: linear-gradient(to bottom, hsl(193, 100%, 18%) 0%, hsl(201, 100%, 11%) 100%);
+$clr-header-6-bg-color: linear-gradient(to bottom, hsl(193, 100%, 18%) 0%, hsl(201, 100%, 11%) 100%);
+$clr-header-7-bg-color: linear-gradient(to bottom, hsl(193, 100%, 18%) 0%, hsl(201, 100%, 11%) 100%);
