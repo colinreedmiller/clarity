@@ -6,10 +6,15 @@
   #{$styledInputs} {
     @include custom-inputs(1rem);
     @include clr-form-fields-appearance(2.5rem, $clr-form-field-border-color);
-    padding: 0 0.25rem;
+    padding: 0px 6px;
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    border-bottom: 1px solid hsl(201, 20%, 50%);
 
     &:not([readonly]) {
       @include input-border-bottom-animation($clr-input-border-color);
+      background-color: hsl(201, 50%, 96%);
     }
 
     &[readonly] {
@@ -28,14 +33,19 @@
   textarea {
     resize: vertical;
     width: 100%;
-    background: $clr-textarea-bg-color;
-    border: $clr-default-borderwidth solid $clr-textarea-border-color;
+    background-color: hsl(201, 50%, 96%);
     color: $clr-textarea-text-color;
-    border-radius: $clr-global-borderradius;
+    border-radius: 0;
     padding: 0.25rem 0.5rem;
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    border: 0 none;
+    border-left: 1px solid hsl(201, 20%, 50%);
 
     &:focus {
-      @include include-outline-style-form-fields();
+      // @include include-outline-style-form-fields();
+      border-left: 2px solid #0095d3;
     }
   }
 }

@@ -41,7 +41,8 @@
 // Standard Clarity Input Bottom Border Animation
 @mixin input-border-bottom-animation($border-color) {
   // Border-bottom animation on focus
-  background: linear-gradient(to bottom, transparent 95%, $border-color 95%) no-repeat;
+  background: linear-gradient(to bottom, transparent 92%, $border-color 92%) no-repeat;
+  background-color: #eee;
   background-size: 0% 100%;
   transition: background-size 0.2s ease;
 
@@ -120,7 +121,8 @@
   display: inline-block;
   height: $size;
   width: $size;
-  border: $clr-default-borderwidth solid $border-color;
+  background-color: #ddd;
+  border: $clr-default-borderwidth solid #ddd;
 }
 
 @mixin custom-inputs($height) {

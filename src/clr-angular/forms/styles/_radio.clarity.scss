@@ -39,6 +39,7 @@
 
     //Checked Radio Styles
     input[type='radio']:checked + label::before {
+      background-color: #fff;
       box-shadow: $clr-forms-radio-selected-shadow;
       border: none;
     }

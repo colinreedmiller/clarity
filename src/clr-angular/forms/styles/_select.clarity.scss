@@ -13,7 +13,7 @@
       @include form-fields-appearance($clr-forms-border-color);
       @include input-border-bottom-animation($clr-forms-focused-color);
       position: relative;
-      padding: 0 ($clr-forms-select-caret-size + $clr-forms-baseline * 2) 0 $clr-forms-baseline;
+      padding: 0 ($clr-forms-select-caret-size + $clr-forms-baseline * 2) 0 0;
       cursor: pointer;
       @include clr-getTypePropertiesForDomElement(form_label, (font-size));
       //Moves the :after pseudo element (arrow) to the back so that clicking over it activates
