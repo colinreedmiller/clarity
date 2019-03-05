@@ -36,7 +36,8 @@
     background-color: $clr-vertical-nav-bg-color;
     will-change: width;
     transition: width 0.2s ease-in-out;
-
+    box-shadow: -1px 0 0 hsl(201, 19, 79) inset;
+    padding-right: 1px;
     .nav-divider {
       //Dims
       border: $clr-global-borderwidth solid $clr-vertical-nav-divider-color;
