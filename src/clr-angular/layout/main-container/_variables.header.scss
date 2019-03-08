@@ -20,10 +20,15 @@ $clr-header-nav-hover-opacity: 1 !default;
 $clr-header-outline-offset: -0.208333rem !default;
 $clr-header-clarity-icons-size: 1rem !default;
 $clr-header-nav-text-horizontal-padding: 1rem !default;
-// To do
-$clr-header-2-bg-color: linear-gradient(to bottom, hsl(193, 100%, 18%) 0%, hsl(201, 100%, 11%) 100%);
-$clr-header-3-bg-color: linear-gradient(to bottom, hsl(193, 100%, 18%) 0%, hsl(201, 100%, 11%) 100%);
-$clr-header-4-bg-color: linear-gradient(to bottom, hsl(193, 100%, 18%) 0%, hsl(201, 100%, 11%) 100%);
-$clr-header-5-bg-color: linear-gradient(to bottom, hsl(193, 100%, 18%) 0%, hsl(201, 100%, 11%) 100%);
-$clr-header-6-bg-color: linear-gradient(to bottom, hsl(193, 100%, 18%) 0%, hsl(201, 100%, 11%) 100%);
-$clr-header-7-bg-color: linear-gradient(to bottom, hsl(193, 100%, 18%) 0%, hsl(201, 100%, 11%) 100%);
+// Dark 288 - 304 Blue
+$clr-header-2-bg-color: linear-gradient(to bottom, hsl(288, 19%, 29%) 0%, hsl(304, 31%, 15%) 100%);
+// Dark 188 - 225 Violet
+$clr-header-3-bg-color: linear-gradient(to bottom, hsl(188, 17%, 27%) 0%, hsl(225, 33%, 14%) 100%);
+// Dark 118 - 175 Green
+$clr-header-4-bg-color: linear-gradient(to bottom, hsl(118, 15%, 30%) 0%, hsl(175, 27%, 18%) 100%);
+// Charcoal 41 - 26 Charcoal
+$clr-header-5-bg-color: linear-gradient(to bottom, hsl(0, 8%, 30%) 0%, hsl(15, 23%, 10%) 100%);
+// Light 201 - 185 Blue-Light
+$clr-header-6-bg-color: linear-gradient(to bottom, hsl(201, 19%, 197%) 0%, hsl(185, 18%, 93%) 100%);
+// Light 258 - 270
+$clr-header-7-bg-color: linear-gradient(to bottom, hsl(258, 9%, 99%) 0%, hsl(270, 5%, 96%) 100%);

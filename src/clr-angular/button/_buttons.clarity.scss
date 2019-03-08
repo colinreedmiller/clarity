@@ -93,12 +93,7 @@
     @if $button-type == link {
       box-shadow: none;
     } @else {
-      box-shadow: 0
-        getActiveWidthBoxShadowTop($button-type)
-        0
-        0
-        getSassButtonColor($button-type, box-shadow-color)
-        inset;
+      box-shadow: 0 2px 4px 0 hsla(55, 0, 55, 0.5) inset;
     }
   }
 

@@ -6,6 +6,7 @@
   .login-wrapper {
     display: flex;
     height: 100%;
+    // change this line and add images to project
     background: generateLoginBackground();
     background-size: 100%;
     background-position: $clr-login-width 0;

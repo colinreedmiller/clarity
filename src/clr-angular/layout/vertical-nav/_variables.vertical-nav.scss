@@ -15,7 +15,7 @@ $clr-vertical-nav-divider-margin: 0.5rem !default;
 $clr-vertical-nav-icon-size: 0.666667rem !default;
 $clr-vertical-nav-icon-right-margin: 0.25rem !default;
 $clr-vertical-nav-collapsed-caret-size: 0.416667rem !default;
-$clr-vertical-nav-icon-active-color: $clr-color-action-600 !default;
+$clr-vertical-nav-icon-active-color: hsl(201, 100%, 100%);
 
 //Vertical Nav: Align
 $clr-vertical-nav-width: 10rem !default;
@@ -26,14 +26,14 @@ $clr-vertical-nav-item-color: $clr-color-neutral-700 !default;
 $clr-vertical-nav-item-color: hsl(201, 100%, 94%);
 */
 
-$clr-vertical-nav-item-active-color: $clr-color-neutral-700 !default;
+$clr-vertical-nav-item-active-color: hsl(201, 100%, 100%);
 $clr-vertical-nav-bg-color: hsl(201, 100%, 100%);
 /*
 $clr-vertical-nav-bg-color: hsl(201, 100%, 12%);
 */
 
-$clr-vertical-nav-active-bg-color: hsl(201, 100%, 94%);
-$clr-vertical-nav-hover-bg-color: hsl(201, 25%, 91%);
+$clr-vertical-nav-active-bg-color: hsl(193, 100%, 18%);
+$clr-vertical-nav-hover-bg-color: hsl(201, 100%, 80%);
 $clr-vertical-nav-top-padding: 0.75rem !default;
 $clr-vertical-nav-trigger-icon-align-margin: ($clr-vertical-nav-item-height - $clr-vertical-nav-icon-size) / 2 !default;
 

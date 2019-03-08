@@ -9,6 +9,8 @@
   height: $clr-header-section-divider-height;
   width: $clr-default-borderwidth;
   top: ($clr-header-height - $clr-header-section-divider-height) / 2;
+
+  // Pleae add box-shadow: 0 1 3 hsla(201, 30, 30, 0.3);
 }
 
 @mixin remove-text-decoration() {
@@ -132,11 +134,34 @@
 
     &.header-6 {
       background: $clr-header-6-bg-color;
+      & * {
+        color: black !important;
+      }
     }
 
     &.header-7 {
       //Hardcoded because this color is not in the color palette. Its reserved for headers only
       background: $clr-header-7-bg-color;
+      & * {
+        color: black !important;
+      }
+    }
+    &.header-6 .branding clr-icon {
+      .clr-i-innerShape {
+        fill: yellow;
+      }
+      .clr-i-background {
+        fill: black;
+      }
+    }
+
+    &.header-7 .branding clr-icon {
+      .clr-i-innerShape {
+        fill: lime;
+      }
+      .clr-i-background {
+        fill: black;
+      }
     }
   }
 

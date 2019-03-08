@@ -29,9 +29,9 @@ $clr-btn-border-width: $clr-default-borderwidth !default;
 
 // Default button colors
 // Usage: ../utils/_maps.clarity.scss
-$clr-btn-default-color: $clr-color-action-600 !default;
+$clr-btn-default-color: hsl(201, 100, 50);
 $clr-btn-default-border-color: $clr-btn-default-color !default;
-$clr-btn-default-bg-color: linear-gradient(to bottom, hsl(201, 100%, 31%) 0%, hsl(193, 100%, 33%) 100%);
+$clr-btn-default-bg-color: linear-gradient(to bottom, hsl(201, 100%, 98%) 0%, hsl(193, 100%, 99%) 100%);
 $clr-btn-default-hover-bg-color: linear-gradient(to bottom, hsl(201, 100%, 31%) 0%, hsl(193, 100%, 33%) 100%);
 $clr-btn-default-hover-color: $clr-color-action-800 !default;
 $clr-btn-default-box-shadow-color: $clr-color-action-500 !default;
@@ -183,7 +183,7 @@ $clr-btn-primary-disabled-color: $clr-color-neutral-700 !default;
 
 $clr-btn-primary-disabled-bg-color: linear-gradient(to bottom, hsl(201, 38%, 94%) 0%, hsl(193, 11%, 88%) 100%);
 // Cannot locate
-$clr-btn-primary-disabled-bg-color: hsl(320, 100, 50);
+// $clr-btn-primary-disabled-bg-color: hsl(320, 100, 50);
 
 $clr-btn-primary-disabled-border-color: $clr-color-neutral-400 !default;
 // Cannot locate
